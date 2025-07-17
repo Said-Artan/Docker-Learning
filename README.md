@@ -5,7 +5,7 @@ Flask App with Load Balancing Using Docker & NGINX
 This project spins up multiple instances of a simple Flask web app and load balances them using NGINX, all with Docker Compose.
 
 Stack:
-  -Python + Flask (Basic web app)
+  -Python + Flask + Redis (Basic web app)
   -Docker
   -Docker Compose
   -NGINX (as a reverse proxy + load balancer)
